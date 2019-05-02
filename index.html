@@ -1,38 +1,40 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Mendie Elit</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <img alt="An image of Mendie Elit" src="placeholder">
-  <p>
-    I am a Business Intelligence professional with a background in accounting and finance.    A CPA  with public accounting and industry experience, 
-    primarily in manufacturing.  With a Bachelor’s of Science in accounting and currently attending a Data Analytics Boot Camp at the University of Denver I am expanding my skills in Python, MySQL, MongoDB, ETL, Pandas, NumPy, Matplotlib, API Interactions, JavaScript, Tableau, and Excel VBA.  I am taking years of experience in finance leadership, 
-    combining with business analytics to work with organizations to find value from data and make informed decisions about their business.  
-  </p>
 
-  <p>Contact information</p>
-  <ul>
-    <li><a href="https://www.linkedin.com/in/mendelle-loveland-elit-cpa-5a21363" target="_blank">LinkedIn</a></li>
-    <li><a href= "GitHub: https://github.com/Mendie-elit" target="_blank">GitHub</a></li>
-    <li>email: mendie.elit@outlook.com</li>
-  </ul>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <table border = "1">
-    <tr>
-      <th colspan="6"> Hobbies</th>
-    </tr>
-    <tr>
-      <td>Scuba Diving</td>
-      <td>Hiking</td>
-      <td>Skiing</td>
-      <td>Golf</td>
-      <td>Archery</td>
-      <td>Camping</td>
-    </tr>
-  </table>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Mendie Elit</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      </section>
+      <p>I am a Business Intelligence professional with a background in accounting and finance. A CPA  with public accounting and industry experience, primarily in manufacturing.  With a Bachelor’s of Science in accounting and currently attending a Data Analytics Boot Camp at the University of Denver I am expanding my skills in Python, MySQL, MongoDB, ETL, Pandas, NumPy, Matplotlib, API Interactions, JavaScript, Tableau, and Excel VBA.  I am taking years of experience in finance leadership, combining with business analytics to work with organizations to find value from data and make informed decisions about their business.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">mendie.elit@outlook.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/Mendie-elit" target="_blank">Mendie Elit</a></li>
+        <li><strong>Portfolio:</strong> <a href="https://www.linkedin.com/in/mendelle-loveland-elit-cpa-5a21363" target="_blank">LinkedIn</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
 
 </html>
